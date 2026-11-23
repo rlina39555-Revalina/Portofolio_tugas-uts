@@ -1,0 +1,40 @@
+# Perkenalan Lina dan Kayla di Cafe
+
+class Orang:
+    def __init__(self, nama):
+        self.nama = nama
+
+    def perkenalan(self):
+        print("Halo, nama aku", self.nama)
+
+
+lina = Orang("Lina")
+kayla = Orang("Kayla")
+
+print("=== Perkenalan di Cafe ===")
+print("Lina dan Kayla bertemu di sebuah cafe.")
+
+print()
+
+print("Lina: Halo, nama aku Lina.")
+print("Kayla: Hai Lina, nama aku Kayla.")
+
+print()
+
+print("Lina: Apa kabar, Kayla?")
+print("Kayla: Kabarku baik, kamu apa kabar?")
+print("Lina: Aku juga baik.")
+
+print()
+
+print("Kayla: Kamu sering nongkrong di cafe ini?")
+print("Lina: Iya, aku suka suasana cafe ini.")
+
+print()
+
+print("Kayla: Senang bisa berkenalan denganmu.")
+print("Lina: Aku juga senang berkenalan denganmu.")
+
+print()
+
+print("=== Perkenalan Selesai ===")
